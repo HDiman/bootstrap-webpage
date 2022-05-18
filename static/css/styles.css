@@ -123,3 +123,46 @@ h2 {
     padding: 3% 2%;
 }
 
+@media (max-width: 1028px) {
+    .rotated {
+      transform: rotate(0deg);
+    }
+    .title-image {
+        position: static;
+        height: 70%;
+        text-align: center;
+        right: 0;
+    }
+    #features {
+        position: static;
+        text-align: center;
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 4rem;
+}
+
+#cta h3 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 0 10rem;
+}
+
+/* Footer Section */
+.footer-text {
+    text-align: center;
+    padding: 0rem 9rem 8rem;
+    color: grey;
+}
+
+.footer-icon {
+    padding: 7rem 42rem 1rem;
+}
